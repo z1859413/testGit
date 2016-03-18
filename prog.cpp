@@ -4,7 +4,7 @@ using namespace std;
 
 double addFour(double x);
 
-double addY(double x, double y);
+double addZ(double x, double y);
 
 int main()
 {
@@ -13,11 +13,11 @@ int main()
 	cout << "And a third line." << endl;
 
 	double p = 3.6;
-	double r = 5.0;
+	double r = 10.0;
 	cout << "Running the function addFour on " << p << " results in " <<
 		addFour(p) << "." << endl
 		 << "Running the function addY on " << p << " results in " <<
-		addY(p, r) << "." << endl;
+		addZ(p, r) << "." << endl;
 
 	char q = cin.get();
 }
@@ -27,6 +27,6 @@ double addFour(double x)
 	return(x + 4.0);
 }
 
-double addY(double x, double y) { 
-	return(x + y);
+double addZ(double x, double z) { 
+	return(x + z);
 }
