@@ -14,7 +14,7 @@ int main()
 
 	double p = 3.6;
 	double r = 8.2;
-	cout << "Running the function addFour on " << p << " results in " <<
+	cout << "Running function addFour on " << p << " results in " <<
 		addFour(p) << "." << endl
 		 << "Running the function addY on " << p << " results in " <<
 		addZ(p, r) << "." << endl;
